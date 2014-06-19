@@ -9,8 +9,8 @@ The 'model.estimation.and.forecasting.R' script is the one that does the analysi
 
 * If you want to replicate the whole thing from the ground up, you will need to use all of those scripts first, then run 'model.estimation.and.forecasting.R'.
 
-* If you would rather just run the analysis, the pre-processed data used in 'model.estimation.and.forecasting.R' can be found in this Google Drive folder:
+* If you would rather just run the analysis, all of the pre-processed data files used in 'model.estimation.and.forecasting.R' can be found in this Google Drive folder:
 
-
+https://drive.google.com/folderview?id=0B5wyt4eDq98Gb2NsZ21fWXBJMFE&usp=sharing
 
 The 'variables.txt' file in this repository briefly describes all of the variables used in that analysis.
