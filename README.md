@@ -5,3 +5,12 @@ Code and data to replicate statistical forecasts of onsets of state-led mass kil
 
 [URL]
 
+The 'model.estimation.and.forecasting.R' script is the one that does the analysis and forecasting. All of the other scripts are used to process data from public sources for use by that script.
+
+* If you want to replicate the whole thing from the ground up, you will need to use all of those scripts first, then run 'model.estimation.and.forecasting.R'.
+
+* If you would rather just run the analysis, the pre-processed data used in 'model.estimation.and.forecasting.R' can be found in this Google Drive folder:
+
+
+
+The 'variables.txt' file in this repository briefly describes all of the variables used in that analysis.
