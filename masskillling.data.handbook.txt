@@ -16,6 +16,15 @@ http://ssrn.com/abstract=1703426
 
 I have made no changes to that original data set, but I am solely responsible for all of the subsequent updates. These extensions of the data set are being done as part of my work on a global, public atrocities early-warning system. I am doing this work under contract to the Center for the Prevention of Genocide at the U.S. Holocaust Memorial Museum.
 
+The data set can be produced in R using two scripts in this repository. The first calls the second:
+
+masskillings.R
+countryyear.rack.maker.R
+
+The data can also be downloaded in .csv format from Google Drive here:
+
+https://drive.google.com/file/d/0B5wyt4eDq98GR3lmaWhlWVNsTnc/edit?usp=sharing
+
 DEFINITION
 
 For purposes of this data set, a state-led mass killing is defined as any episode in which the actions of state agents result in the intentional death of at least 1,000 noncombatants from a discrete group in a period of sustained violence.
