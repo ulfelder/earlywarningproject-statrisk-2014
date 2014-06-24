@@ -1,0 +1,79 @@
+STATE-LED MASS KILLING EPISODE DATA HANDBOOK
+Version 1.0
+2014-06-24
+
+Jay Ulfelder
+ulfelder@gmail.com
+
+
+INTRODUCTION
+
+This handbook documents a data set that attempts to record the start and end of all episodes of state-led mass killing worldwide since 1946. Country-years are the units of observation. The definition of a state-led mass killing and the criteria used to identify when they occur and end are discussed in the following section. The section after that briefly describes the coding process. The final section lists and briefly describes the variables that comprise the data set.
+
+This data set extends one created in 2006-2007 by Ben Valentino and me for the Political Instability Task Force, a U.S. government—funded research program. The original version is described in the paper you can find here:
+
+http://ssrn.com/abstract=1703426
+
+I have made no changes to that original data set, but I am solely responsible for all of the subsequent updates. These extensions of the data set are being done as part of my work on a global, public atrocities early-warning system. I am doing this work under contract to the Center for the Prevention of Genocide at the U.S. Holocaust Memorial Museum.
+
+DEFINITION
+
+For purposes of this data set, a state-led mass killing is defined as any episode in which the actions of state agents result in the intentional death of at least 1,000 noncombatants from a discrete group in a period of sustained violence.
+
+In addition to the numerical death threshold, our definition entails several criteria that must be considered in determining whether or not a mass killing has occurred:
+
+Civilian Victims. We defined a noncombatant was defined as any unarmed person who is not a current member of a formal or irregular military organization and who does not apparently pose an immediate threat to the life, physical safety, or property of other people. Mass killing includes the intentional killing of civilians during armed conflict. However, any armed person is considered a combatant, even if he or she has apparently taken up arms in self-defense.
+
+Groupness. To distinguish mass killing from large numbers of unrelated civilian fatalities, the victims of mass killing must be perceived by the perpetrators as belonging to a discrete group. That group may be defined communally (e.g., ethnic or religious), politically (e.g., partisan or ideological), socio-economically (e.g., class or professional), or geographically (e.g., residents of specific villages or regions). In this way, apparently unrelated executions by police or other state agents would not qualify as mass killing, but capital punishment directed against members of a specific political or communal group would.
+
+States as Perpetrators. Our original research was motivated by a specific interest in understanding and anticipating killings perpetrated by agents of state governments. In many cases, mass killings are carried out by official state agents—the military, the police, or other internal security organizations—and observation of this aspect of the violence is not difficult. In some cases, however, state governments recruit, sponsor, or encourage groups of private citizens or paramilitary organizations to perpetrate or participate in mass killing. Determining state complicity in such cases can be difficult, not least because authorities often seek to conceal their responsibility for such crimes. To determine state involvement in ambiguous cases, we looked for evidence of coordination with government policies or military operations; evidence that the government consistently failed to take reasonable actions to protect victims or prosecute perpetrators; and consensus assessments by secondary sources regarding government responsibility.
+
+Direct or Indirect Killing. Our definition focuses on actions that result in the deaths of civilians. In addition to deaths resulting from direct violence, this definition also covers deaths caused by other state actions, if, in our judgment, perpetrators could have expected that their actions would lead to large numbers of civilian fatalities. Examples of such actions include, but are not limited to: mass starvation; disease-related deaths resulting from the intentional confiscation, destruction, or medicines or other healthcare supplies; and deaths occurring during forced relocation or forced labor.
+
+Perpetrator Intent. Our definition makes reference to perpetrators’ intent to distinguish mass killing from deaths caused by natural disasters, natural outbreaks of disease, or the unintended killing of civilians during war (so-called “collateral damage”) or as a result of other government policies. In contrast to most researchers’ definitions of genocide, however, our definition is not limited to the “specific” intent to destroy discrete ethnic or political groups. Instead, it focuses only on the “simple” intent of the perpetrators to bring about the death of their victims. Fatalities should be considered intentional if they result from actions designed to compel or coerce civilian populations to change their behavior against their will, as long as the perpetrators could have reasonably expected that these actions would result in widespread death among the affected populations. Determining the intentionality of deaths due to indirect actions can be difficult because it requires insight into the aims and motives of the perpetrators. Public statements by the perpetrators or their agents and accusations by victims or their advocates are frequently unreliable. In practice, therefore, it is often necessary to infer intentionality from the actions of the perpetrators and the general context of the events.
+
+No Interstate War. We restricted our research to violence carried out by state governments or their agents against residents of their own state (not necessarily citizens). Killings of foreign citizens during interstate or colonial wars were excluded, except for the rare cases in which the domestic government engaged in substantial collaboration with the foreign power in perpetrating the killing.
+
+Start and End Dates. In the historical data set, mass killing events were considered to have begun in the first year in which at least 100 intentional noncombatant fatalities occurred. If fewer than 100 total fatalities are recorded annually for any three consecutive years during the event, the event was considered to have ended during the first year within that three-year period in which fatalities dropped below 100 per year (even if killing continues at lower levels in later years). In annual and other occasional updates, we wait to declare that an episode of mass killing has begun until we are confident that at least 1,000 deaths have occurred and the other criteria have been met. In some cases, the relevant evidence will not become available until well after killings occurred or began. In those cases, we will revise the historical data accordingly. 
+
+CODING PROCESS
+
+The data covering the period 1946-2006 were originally coded by Ben Valentino in 2006-2007. The version used here was reconstructed from Table A1 given in the appendix to Ulfelder and Valentino (2008), a link to which was provided in the Introduction.
+
+In constructing that original version, Valentino began by assembling existing lists of genocides and related episodes of mass atrocities as identified by Barbara Harff, Helen Fein, Rudolph Rummel, and himself. These were augmented with lists of major armed conflicts compiled by PITF, PRIO, Correlates of War, SIPRI, Kosimo, James Fearon, Patrick Brogan, Michael Clodfelter, and Ben Valentino. Once that list was compiled, Valentino researched each case to determine whether or not it included one or more episodes of state-led mass killing that met the criteria described in the previous section, and if so, when it began and ended. Secondary histories of the conflict or country in question were the most important source of additional information about ambiguous cases. Major human-rights databases and other searchable press and scholarly sources were also used as necessary.
+
+Updates to the data set covering (so far) the period 2007-2013 are made by the author of this data handbook, Jay Ulfelder. I have consulted with Ben Valentino on specific cases, but the final decisions have been mine alone, and I am solely responsible for the results. There is no formal research routine involved. Instead, these updates are based primarily on reading and research I do as part of my broader work on mass atrocities and political violence. Key sources include but are not limited to annual and occasional reports from Human Rights Watch, Amnesty International, and International Crisis Group. In cases where those reports or related new stories suggest that mass atrocities may be occurring, I search other sources for additional information.
+
+VARIABLES
+
+country
+
+Country name (string)
+
+sftgcode
+
+Three-letter unique country identifier, per the Political Instability Task Force (string)
+
+year
+
+Calendar year (numeric)
+
+start
+
+Binary indicator for onset of one or more episodes of state-led mass killing in the relevant country at any time during the relevant calendar year (1 = yes, 0 = no) (numeric)
+
+end
+
+Binary indicator for end of one or more episodes of state-led mass killing in the relevant country at any time during the relevant calendar year (1 = yes, 0 = no) (numeric)
+
+ongoing
+
+Binary indicator of whether or not at least one episode of state-led mass killing was occurring in the relevant country at any time during the relevant calendar year (1 = yes, 0 = no) (numeric)
+
+type
+
+Identifier of the context in which the episode of mass killing that began in the relevant country-year occurred (1 = civil war, 2 = nonviolent uprising, 3 = state repression absent civil war or nonviolent uprising, 4 = other) (factor)
+
+ever
+
+Binary indicator of whether or not at least one episode of state-led mass killing has occurred in the country in question at any time since 1946 (1 = yes, 0 = no) (numeric)
